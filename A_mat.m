@@ -1,3 +1,6 @@
+%Coded by: Tirtharaj Dash
+%Website: https://tirtharajdash.github.io
+
 clc
 n = input('Enter size of your A matrix:');
 

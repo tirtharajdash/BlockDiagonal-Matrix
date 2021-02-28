@@ -1,5 +1,5 @@
 #Coded by: Tirtharaj Dash
-#Website: htps://tirtharajdash.github.io
+#Website: https://tirtharajdash.github.io
 
 import numpy as np
 
