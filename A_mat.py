@@ -48,16 +48,16 @@ print(A_dash)
 
 #Construct A
 m = n**2;
-A = np.zeros([m**2,m**2])
+A = np.zeros([n*m,n*m])
 I = np.eye(m)
 
 count = 0
-for i in range(0,m):
+for i in range(0,n):
     A[i*m:(i+1)*m,i*m:(i+1)*m] = A_dash
     
     count = count + 1
     #place the I matrix on up and down diagonal
-    if count <= m-1:
+    if count <= n-1:
         A[i*m:(i+1)*m,(i+1)*m:(i+2)*m] = I
         A[(i+1)*m:(i+2)*m,i*m:(i+1)*m] = I
 
